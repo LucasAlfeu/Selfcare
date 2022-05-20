@@ -1,0 +1,71 @@
+.rodape {
+    background-color: var(--cor-rodape);
+    margin-top: 5rem;
+}
+
+.informacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600px;
+    padding: 50px 0;
+    
+}
+
+.informacao__item {
+    margin-bottom: 15px;
+}
+
+.informacao__input {
+    flex-direction: column;
+}
+
+.container__newsletter {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.informacao__newsletter-input {
+    width: 250px;
+    height: 50;
+    padding: 0 10px;
+}
+
+.informacao__botao {
+    background-color: var(--cor-botao);
+    border: none;
+    padding: 8px 15px;
+    color: white;
+    font-size: 25px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+@media screen and (max-width: 480px) {
+    .informacao {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .informacao__lista {
+        margin-bottom: 1.5rem;
+    }
+
+    .container__newsletter {
+        width: 87vw;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .informacao {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .informacao__lista {
+        margin-bottom: 2.5rem;
+    }
+}

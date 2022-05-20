@@ -1,0 +1,32 @@
+.promocao {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 7rem 0;
+}
+
+.promocao__titulo {
+    font-size: 2.75rem;
+    text-transform: uppercase;
+}
+
+.promocao__itens {
+    color: rgb(160, 160, 160);
+    font-size: 1.6rem;
+}
+
+@media screen and (max-width: 480px) {
+    .promocao {
+        flex-direction: column;
+        margin: 2.5rem 0 1.5rem 0
+    }
+
+    .promocao__titulo {
+        font-size: 2.5rem;
+    }
+
+    .promocao__itens {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+}

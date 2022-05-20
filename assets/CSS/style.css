@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-principal: #51B248;
+    --cor-botao: #5CA720;
+    --cor-rodape: #F9F9F9;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+}
